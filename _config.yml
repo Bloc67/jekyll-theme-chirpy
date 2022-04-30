@@ -134,15 +134,6 @@ collections:
   tabs:
     output: true
     sort_by: order
-  art:
-    output: true
-    permalink: '/:collection/:path/'
-    order:
-        - art2021.md
-        - art2020.md
-        - art2019.md
-        - art2018.md
-        - art2017.md
 
 defaults:
   - scope:
