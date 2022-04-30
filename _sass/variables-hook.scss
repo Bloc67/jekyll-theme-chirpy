@@ -1,3 +1,35 @@
 /*
   Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
 */
+
+.image-gallery {
+  overflow: auto;
+  width: 102%; 
+  margin-left: -1%!important;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;    
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));   
+  grid-gap: 1rem;    
+
+  }
+.image-gallery a {
+  display: block; 
+  border-radius: 3px;
+  text-align: center; 
+  text-decoration: none !important;
+  padding-top: 90%; 
+  background-repeat: norepeat; 
+  background-size: cover;    
+}
+.image-gallery a span {
+  font-size: 0.8rem; 
+  display: block; 
+  text-overflow: ellipsis; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  padding: 3px 0;
+}
+.image-gallery a img {
+  width: 100%; display: block;
+}
