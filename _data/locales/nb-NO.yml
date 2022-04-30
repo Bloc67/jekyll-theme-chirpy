@@ -1,0 +1,69 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Innlegg
+  category: Kategori
+  tag: Tagg
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Hjem
+  categories: Kategorier
+  tags: Tagger
+  archives: Arkiv
+  about: Om
+
+# the text displayed in the search bar & search results
+search:
+  hint: finn
+  cancel: Avbryt
+  no_results: Ingenting ble funnet.
+
+panel:
+  lastmod: Oppdatert
+  trending_tags: Populære Tagger
+  toc: Innhold
+
+copyright:
+  # Displayed in the footer
+  brief: Alle rettigheter.
+
+meta: Drevet av :PLATFORM med :THEME theme.
+
+not_found:
+  statment: Ikke funnet.
+  hint_template: :HEAD_BAK for lete på nytt, eller søk i :ARCHIVES_PAGE.
+  head_back: Gå Til Forsiden
+  archives_page: Arkiv
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Av
+  posted: Publisert
+  updated: Oppdatert
+  words: ord
+  pageview_measure: visninger
+  read_time:
+    unit: min
+    prompt: lesning
+  relate_posts: Les Videre
+  share: Del
+  button:
+    next: Nyere
+    previous: Eldre
+    copy_code:
+      succeed: Kopiert!
+    share_link:
+      title: Kopier lenke
+      succeed: Lenke ble kopiert!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Festet
+
+# categories page
+categories:
+  category_measure: kategorier
+  post_measure: innlegg
