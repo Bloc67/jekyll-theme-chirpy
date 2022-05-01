@@ -23,10 +23,10 @@ timezone: Europe/Oslo
 
 title: BHKblogg                          # the main title
 
-tagline: tanker og malerier   # it will display as the sub-title
+tagline: Personlig blogg & galleri   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Personlig websted.
+  Personlig blogg & galleri for forfatter/hobbkunstner B.H.Kristiansen.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
@@ -40,7 +40,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: B.H.Kristiansen
+  name: Bjørn
   email: post@bhkristiansen.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link

@@ -51,9 +51,12 @@ layout: page
     </h1>
 
     <div class="post-content">
+      {% if post.teaser %}
+        <img class="home_img" src="{{ post.teaser }}" alt="" />
+      {% endif %}        
       <p>
-        {% include no-linenos.html content=post.content %}
-        {{ content | markdownify | strip_html | truncate: 200 | escape }}
+          {% include no-linenos.html content=post.content %}
+        {{ content | markdownify | strip_html | truncate: 400 | escape }}
       </p>
     </div>
 
