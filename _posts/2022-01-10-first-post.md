@@ -1,8 +1,8 @@
 ---
 title: Innledning
 date: 2021-01-03 18:32:00 -0500
-categories: [Blogging, Tutorial]
-tags: [google analytics, pageviews]
+categories: [Blogg]
+tags: [programmering, design]
 image:
   path: /assets/images/jekyll.png
 teaser: /assets/images/jekyll.png
