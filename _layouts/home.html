@@ -46,14 +46,14 @@ layout: page
 {% for post in posts %}
 
   <div class="post-preview">
+    {% if post.teaser %}
+      <img class="home_img" src="{{ post.teaser }}" alt="" />
+    {% endif %}        
     <h1>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h1>
 
-    <div class="post-content">
-      {% if post.teaser %}
-        <img class="home_img" src="{{ post.teaser }}" alt="" />
-      {% endif %}        
+    <div class="post-content" style="overflow: hidden;">
       <p>
           {% include no-linenos.html content=post.content %}
         {{ content | markdownify | strip_html | truncate: 400 | escape }}

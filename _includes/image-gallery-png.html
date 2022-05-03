@@ -10,8 +10,10 @@
       {% assign filename = filenameparts | last | replace: file.extname,"" %}
       {% assign thumbpath = file.path | replace: file.extname,".png" %}
       
-      <a href="{{ file.path }}" title="{{ filename }}" class="popup" style="background-image: url({{ thumbpath }});">  </a>
-    {% endif %}
+      <a href="{{ file.path }}" title="{{ filename }}" class="popup">
+        <img src="{{ file.path }}" id="{{ filename }}" alt="" />
+      </a>
+      {% endif %}
   {% endif %}
 {% endfor %}
 </div>
